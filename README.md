@@ -1,25 +1,8 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Test Page!</title>
-    <style>
-       h1 {
-            color:blue;
-            text-align:center;
-          }
-      body {
-            background-color:tan;
-
-          }
-      table {
-            margin:auto;
-            border: 2px solid black;
-            width:auto;
-            }
-            th, td {
-                border: 1px solid black;
-                text-align: center;
-            }
-    </style>
+    <link rel="stylesheet" href="styles.css">
     </head>
     <body>
       <img src="C:\Users\euo88\Desktop/Logo_100.jpg">
