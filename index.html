@@ -2,10 +2,32 @@
 <html>
   <head>
     <title>Test Page!</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+       h1 {
+            color:blue;
+            text-align:center;
+          }
+      body {
+            background-color:tan;
+
+          }
+      table {
+            margin:auto;
+            border: 2px solid black;
+            width:auto;
+            }
+            th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+
+          }
+    </style>
     </head>
     <body>
-      <img src="C:\Users\euo88\source\testsite-master\testsite-master/Logo_100.jpg">
+      <img src="C:\Users\euo88\source\testsite-master\testsite-master/Logo_100.jpg" width="300">
+      <br>
+      <a href="C:\Users\euo88\source\HTML/contact_us.htm">Contact</a>
       <h1>Elevation Cleaning Services</h1>
       <table>
         <tr>
@@ -24,5 +46,9 @@
         <input type="text" placeholder="Full Name" name="name">
         <button>Submit!</button>
         </form>
+        <import cgi
+      form = cgi.FieldStorage()
+      # prints the value of <input name='name'/>
+      <print("Name in form: ",form.getvalue("name"))>
     </body>
   </html>
